@@ -6,8 +6,9 @@
 
     <title>Laravel</title>
     <link rel="stylesheet" href="/css/app.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="font-sans">
 
 <div id="app">
 
@@ -19,9 +20,17 @@
 
         <main class="flex">
             <aside class="w-1/5">
+                <ul>
+                    <li>
+                        <router-link to="/">Home</router-link>
+                    </li>
+                    <li>
+                        <router-link to="/about">About</router-link>
+                    </li>
+                </ul>
 
-                <router-link to="/">Home</router-link>
-                <router-link to="/about">About</router-link>
+
+
 
             </aside>
             <div class="primary flex-1">
