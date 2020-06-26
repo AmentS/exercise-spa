@@ -25,16 +25,16 @@
                     <h5 class="uppercase font-bold mb-4">The Brand</h5>
                     <ul class="list-reset">
                         <li class="leading-10">
-                            <router-link to="/">Logo</router-link>
+                            <router-link to="/" exact>Logo</router-link>
                         </li>
                         <li class="leading-10">
                             <router-link to="/about">Logo Symbol</router-link>
                         </li>
                         <li class="leading-10">
-                            <router-link to="/about">Colors</router-link>
+                            <router-link to="/colors">Colors</router-link>
                         </li>
                         <li class="leading-10">
-                            <router-link to="/about">Tyography</router-link>
+                            <router-link to="/typography">Typography</router-link>
                         </li>
                     </ul>
                 </section>
@@ -43,16 +43,16 @@
                     <h5 class="uppercase font-bold mb-4">Doodles</h5>
                     <ul class="list-reset">
                         <li class="leading-10">
-                            <router-link to="/">Mascot</router-link>
+                            <router-link to="/mascot">Mascot</router-link>
                         </li>
                         <li class="leading-10">
-                            <router-link to="/about">Illustrations</router-link>
+                            <router-link to="/illustrations">Illustrations</router-link>
                         </li>
                         <li class="leading-10">
-                            <router-link to="/about">Loaders and Animations</router-link>
+                            <router-link to="/loaders">Loaders and Animations</router-link>
                         </li>
                         <li class="leading-10">
-                            <router-link to="/about">Wallpapers</router-link>
+                            <router-link to="/wallpapers">Wallpapers</router-link>
                         </li>
                     </ul>
                 </section>

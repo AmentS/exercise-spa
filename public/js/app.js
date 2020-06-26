@@ -35772,7 +35772,7 @@ var routes = [{
 }];
 /* harmony default export */ __webpack_exports__["default"] = (new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
   routes: routes,
-  linkActiveClass: 'is-active'
+  linkActiveClass: 'font-bold'
 }));
 
 /***/ }),
