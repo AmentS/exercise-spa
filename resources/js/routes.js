@@ -3,25 +3,14 @@ import VueRouter from 'vue-router';
 
 let routes = [
     {
-      /*  path: '/',
-        component: require('./components/TestPocetne').default*/
-
+        path: '/',
+        component: require('./components/Home').default
     },
 
     {
-
-
-     /*   path: '/support',
-        component: require('./components/Support').default*/
-    },
-
-    {
-
-
-        /*path: '/admin',
-        component: require('./components/AdminPage').default*/
+        path: '/about',
+        component: require('./components/About.vue').default
     }
-
 ]
 
 export default new VueRouter({
