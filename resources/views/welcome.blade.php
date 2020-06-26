@@ -6,7 +6,7 @@
 
     <title>Laravel</title>
     <link rel="stylesheet" href="/css/app.css">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:400, 700 mb-4" rel="stylesheet">
 </head>
 <body class="font-sans">
 
@@ -14,20 +14,49 @@
 
     <div class="container mx-auto">
         <header class="py-6">
-           <h3>Laracast</h3>
+           <h3 style="font-size: 33px">Laracast</h3>
 
         </header>
 
         <main class="flex">
             <aside class="w-1/5">
-                <ul>
-                    <li>
-                        <router-link to="/">Home</router-link>
-                    </li>
-                    <li>
-                        <router-link to="/about">About</router-link>
-                    </li>
-                </ul>
+
+                <section class="mb-8">
+                    <h5 class="uppercase font-bold mb-4">The Brand</h5>
+                    <ul class="list-reset">
+                        <li class="leading-10">
+                            <router-link to="/">Logo</router-link>
+                        </li>
+                        <li class="leading-10">
+                            <router-link to="/about">Logo Symbol</router-link>
+                        </li>
+                        <li class="leading-10">
+                            <router-link to="/about">Colors</router-link>
+                        </li>
+                        <li class="leading-10">
+                            <router-link to="/about">Tyography</router-link>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h5 class="uppercase font-bold mb-4">Doodles</h5>
+                    <ul class="list-reset">
+                        <li class="leading-10">
+                            <router-link to="/">Mascot</router-link>
+                        </li>
+                        <li class="leading-10">
+                            <router-link to="/about">Illustrations</router-link>
+                        </li>
+                        <li class="leading-10">
+                            <router-link to="/about">Loaders and Animations</router-link>
+                        </li>
+                        <li class="leading-10">
+                            <router-link to="/about">Wallpapers</router-link>
+                        </li>
+                    </ul>
+                </section>
+
 
 
 
