@@ -14,7 +14,7 @@
 
     <div class="container mx-auto">
         <header class="py-6">
-           <h3 style="font-size: 33px">Laracast</h3>
+           <h3 style="font-size: 33px"><img src="/images/logo.svg" alt=""></h3>
 
         </header>
 
