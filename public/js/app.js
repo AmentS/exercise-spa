@@ -2091,8 +2091,35 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: "Stats"
+  data: function data() {
+    return {
+      siteData: []
+    };
+  },
+  created: function created() {
+    var _this = this;
+
+    axios.get("/api/stats").then(function (response) {
+      return _this.siteData = response.data;
+    });
+  }
 });
 
 /***/ }),
@@ -20845,14 +20872,28 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "h1",
-    {
-      staticClass: "font-normal text-gray-700 leading-none",
-      staticStyle: { "font-size": "33px" }
-    },
-    [_vm._v("Stats")]
-  )
+  return _c("div", [
+    _c(
+      "h1",
+      {
+        staticClass: "font-normal text-gray-700 leading-none mb-4",
+        staticStyle: { "font-size": "33px" }
+      },
+      [_vm._v("Stats")]
+    ),
+    _vm._v(" "),
+    _c("ul", [
+      _c("li", [
+        _c("strong", [_vm._v("Total Series:")]),
+        _vm._v(" " + _vm._s(_vm.siteData.lessons) + "\n        ")
+      ]),
+      _vm._v(" "),
+      _c("li", [
+        _c("strong", [_vm._v("Total Series:")]),
+        _vm._v(" " + _vm._s(_vm.siteData.series) + "\n        ")
+      ])
+    ])
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
