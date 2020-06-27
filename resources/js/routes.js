@@ -3,6 +3,10 @@ import VueRouter from 'vue-router';
 
 let routes = [
     {
+      path: '*',
+      component:   require('./components/404').default
+    },
+    {
         path: '/',
         component: require('./components/Logo').default
     },
