@@ -3,10 +3,11 @@ import VueRouter from 'vue-router';
 
 let routes = [
     {
-      /*  * - bilo koja ruta koja nije jedna od registrovanih*/
-      path: '*',
-      component:   require('./components/404').default
+        /*  * - bilo koja ruta koja nije jedna od registrovanih*/
+        path: '*',
+        component: require('./components/404').default
     },
+
     {
         path: '/',
         component: require('./components/Logo').default
@@ -16,6 +17,7 @@ let routes = [
         path: '/logoSymbol',
         component: require('./components/LogoSymbol').default
     },
+
     {
         path: '/colors',
         component: require('./components/Colors').default
@@ -25,6 +27,7 @@ let routes = [
         path: '/typography',
         component: require('./components/Typography').default
     },
+
     {
         path: '/mascot',
         component: require('./components/Mascot').default
@@ -34,6 +37,7 @@ let routes = [
         path: '/illustrations',
         component: require('./components/Illustrations').default
     },
+
     {
         path: '/loaders',
         component: require('./components/Loaders').default
@@ -42,6 +46,11 @@ let routes = [
     {
         path: '/wallpapers',
         component: require('./components/Wallpapers').default
+    },
+
+    {
+        path: '/stats',
+        component: require('./components/Stats').default
     }
 ]
 
