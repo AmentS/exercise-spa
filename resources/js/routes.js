@@ -4,12 +4,39 @@ import VueRouter from 'vue-router';
 let routes = [
     {
         path: '/',
-        component: require('./components/Home').default
+        component: require('./components/Logo').default
     },
 
     {
-        path: '/about',
-        component: require('./components/About.vue').default
+        path: '/logoSymbol',
+        component: require('./components/LogoSymbol').default
+    },
+    {
+        path: '/colors',
+        component: require('./components/Colors').default
+    },
+
+    {
+        path: '/typography',
+        component: require('./components/Typography').default
+    },
+    {
+        path: '/mascot',
+        component: require('./components/Mascot').default
+    },
+
+    {
+        path: '/illustrations',
+        component: require('./components/Illustrations').default
+    },
+    {
+        path: '/loaders',
+        component: require('./components/Loaders').default
+    },
+
+    {
+        path: '/wallpapers',
+        component: require('./components/Wallpapers').default
     }
 ]
 

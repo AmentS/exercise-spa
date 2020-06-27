@@ -28,7 +28,7 @@
                             <router-link to="/" exact>Logo</router-link>
                         </li>
                         <li class="leading-10">
-                            <router-link to="/about">Logo Symbol</router-link>
+                            <router-link to="/logoSymbol">Logo Symbol</router-link>
                         </li>
                         <li class="leading-10">
                             <router-link to="/colors">Colors</router-link>
