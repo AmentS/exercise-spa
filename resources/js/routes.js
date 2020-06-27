@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 
 let routes = [
     {
+      /*  * - bilo koja ruta koja nije jedna od registrovanih*/
       path: '*',
       component:   require('./components/404').default
     },

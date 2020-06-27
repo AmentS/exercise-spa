@@ -6,7 +6,7 @@
 
     <title>Laravel</title>
     <link rel="stylesheet" href="/css/app.css">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:400, 700 mb-4" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:400, 700 mb-4" rel="stylesheet">
 </head>
 <body class="font-sans">
 
@@ -14,14 +14,17 @@
 
     <div class="container mx-auto">
         <header class="py-6">
-           <h3 style="font-size: 33px"><img src="/images/logo.svg" alt=""></h3>
+            <h3 style="font-size: 33px"><img src="/images/logo.svg" alt=""></h3>
 
         </header>
 
-        <main class="flex">
-            <aside class="w-1/5">
 
-                <section class="mb-8">
+        <div class="container px-8 pb-10">
+
+        <main class="flex">
+            <aside class="w-1/5 pt-8">
+
+                <section class="mb-10">
                     <h5 class="uppercase font-bold mb-4">The Brand</h5>
                     <ul class="list-reset">
                         <li class="leading-10">
@@ -58,10 +61,9 @@
                 </section>
 
 
-
-
-
             </aside>
+
+
             <div class="primary flex-1">
                 <router-view></router-view>
             </div>
@@ -69,13 +71,7 @@
 
         </main>
 
-
-
-
-
-
-
-
+        </div>
 
 
     </div>
